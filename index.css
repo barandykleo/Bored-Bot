@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Oxygen, sans-serif;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+h1 {
+    color: rgb(165, 42, 83);
+    margin-top: 40px;
+
+}
+
+h3 {
+    color: rgb(0, 255, 72);
+    margin-top: 30px;
+
+}
+
+button {
+    background-color: rgb(174, 226, 43);
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid rgb(102, 255, 0);
+    height: 100px;
+    width: 100px;
+    /* margin-left: 720px; */
+    margin: 0 auto;
+
+}
+
+button:hover {
+    background-color: rgb(165, 42, 83);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 350px;
+    width: 700px;
+    padding-top: 30px;
+    /* margin-left: 430px; */
+    margin: 0 auto;
+}
+
+.fun {
+    background: #e65c00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
